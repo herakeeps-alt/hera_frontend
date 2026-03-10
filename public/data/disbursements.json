@@ -1,0 +1,18 @@
+{
+  "monthly": [
+    { "month": "Jul", "amount": 8200000, "color": "blue" },
+    { "month": "Aug", "amount": 10800000, "color": "blue" },
+    { "month": "Sep", "amount": 7200000, "color": "blue" },
+    { "month": "Oct", "amount": 13500000, "color": "gold" },
+    { "month": "Nov", "amount": 9450000, "color": "blue" },
+    { "month": "Dec", "amount": 11700000, "color": "blue" },
+    { "month": "Jan", "amount": 6600000, "color": "blue" },
+    { "month": "Feb", "amount": 12300000, "color": "green" },
+    { "month": "Mar", "amount": 5700000, "color": "green", "partial": true }
+  ],
+  "sources": [
+    { "label": "Gov Grants", "amount": 78400000, "pct": 78, "color": "gold" },
+    { "label": "NGO Donors", "amount": 42100000, "pct": 45, "color": "green" },
+    { "label": "Private Sector", "amount": 22100000, "pct": 24, "color": "blue" }
+  ]
+}

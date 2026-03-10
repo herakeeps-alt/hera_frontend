@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,300&family=Syne:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0e14;
+  --surface: #111520;
+  --surface2: #161c2b;
+  --border: #1e2840;
+  --border2: #253050;
+  --gold: #c9a84c;
+  --gold2: #e8c76a;
+  --gold-dim: rgba(201,168,76,0.12);
+  --green: #34d399;
+  --red: #f87171;
+  --blue: #60a5fa;
+  --amber: #f59e0b;
+  --text: #e2e8f0;
+  --text2: #8896b3;
+  --text3: #4a5a7a;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Syne', sans-serif;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(201,168,76,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.pulse-dot { animation: pulse-dot 2s infinite; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.45s ease forwards; }
+.fade-up-1 { animation: fadeUp 0.45s 0.05s ease both; }
+.fade-up-2 { animation: fadeUp 0.45s 0.1s ease both; }
+.fade-up-3 { animation: fadeUp 0.45s 0.15s ease both; }
+.fade-up-4 { animation: fadeUp 0.45s 0.2s ease both; }
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.3s ease both; }

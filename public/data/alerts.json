@@ -1,0 +1,46 @@
+[
+  {
+    "id": "alert-001",
+    "severity": "error",
+    "title": "Kiambu Secondary",
+    "message": "Receipt hash mismatch. Document integrity check failed.",
+    "schoolId": "SCH-0119",
+    "docId": "doc-003",
+    "time": "2m",
+    "timestamp": "2025-03-09T14:58:00Z",
+    "resolved": false
+  },
+  {
+    "id": "alert-002",
+    "severity": "warning",
+    "title": "Rift Valley Zone 3",
+    "message": "Disbursement pending >72h without confirmation.",
+    "schoolId": "ZONE-003",
+    "docId": null,
+    "time": "4h",
+    "timestamp": "2025-03-09T11:00:00Z",
+    "resolved": false
+  },
+  {
+    "id": "alert-003",
+    "severity": "ok",
+    "title": "Nairobi County",
+    "message": "Q2 audit complete. All 142 schools verified on-chain.",
+    "schoolId": null,
+    "docId": null,
+    "time": "1d",
+    "timestamp": "2025-03-08T09:00:00Z",
+    "resolved": true
+  },
+  {
+    "id": "alert-004",
+    "severity": "warning",
+    "title": "Nakuru North Secondary",
+    "message": "Duplicate invoice submission detected. Awaiting manual review.",
+    "schoolId": "SCH-0562",
+    "docId": "doc-006",
+    "time": "3d",
+    "timestamp": "2025-03-06T14:00:00Z",
+    "resolved": false
+  }
+]

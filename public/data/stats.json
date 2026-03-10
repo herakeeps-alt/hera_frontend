@@ -1,0 +1,12 @@
+{
+  "totalAllocated": { "value": "KES", "unit": "142.6M", "change": "12.4% vs last FY", "changeUp": true },
+  "disbursedVerified": { "value": "KES", "unit": "98.3M", "change": "68.9% utilization", "changeUp": true },
+  "schoolsOnChain": { "value": "847", "unit": "", "change": "23 added this month", "changeUp": true },
+  "flaggedTransactions": { "value": "14", "unit": "", "change": "2 new flags today", "changeUp": false },
+  "blockNumber": 21847302,
+  "network": "Ethereum Sepolia",
+  "gasPrice": "12.4 gwei",
+  "finality": "Confirmed",
+  "contractAddress": "0x4f3a…c82e",
+  "l2Bridge": "Pending Setup"
+}
